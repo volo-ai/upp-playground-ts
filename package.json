@@ -1,0 +1,31 @@
+{
+  "name": "upp-playground-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volo-ai/upp-playground-ts.git"
+  },
+  "author": "Upp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volo-ai/upp-playground-ts/issues"
+  },
+  "homepage": "https://github.com/volo-ai/upp-playground-ts#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.8",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
